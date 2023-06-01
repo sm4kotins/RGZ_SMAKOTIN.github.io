@@ -1,0 +1,309 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #02818a;
+    color: #02818a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #024b50;
+}
+
+nav ul li a.active {
+    background-color: #02818a;
+    color: #00ff99;
+}
+p {
+    text-align: justify;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.finashka {
+    align-items: center;
+    width: 600px;
+}
+
+.finashka th {
+    border: 1px;
+    height: 30px
+}
+
+.finashka td {
+    border: 1px;
+    height: 30px;
+}
+
+.linia {
+    border-top: 1px solid #000000;
+    position: absolute;
+    padding-top: 100px;
+    z-index: 2;
+}
+
+    .vih {
+        color: rgb(66, 65, 65);
+    }
+
+    .bad {
+        color: rgb(253, 76, 76);
+    }
+
+    .good {
+        color: #1c9f05;
+    }
+
+    .pp {
+        font-size: 18px;
+        margin-left: 500px;
+        width: 920px;
+        text-align: justify;
+        color: gray;
+    }
+
+    .prod a:link {
+        color:#02818a;  
+    }
+
+    .prod a:visited {
+        color:#02818a;
+    }
+
+    .prod a:hover {
+        color:#02818a;
+    }
+
+    .photo-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+  
+      .photo-item {
+        flex-basis: 25%;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      .photo-img {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+      }
+  
+      .photo-caption {
+        margin-top: 5px;
+        height: 30px;
+      }
+
+      .photo-container a:link {
+        color: #000;
+      }
+
+      .photo-container a:visited {
+        color: #000;
+      }
+
+      .photo-container a:hover {
+        color: #02818a
+      }
+
+        .video {
+            position: absolute;
+            margin-right: 200px;
+            margin-top: 50px;
+            margin-left: 200px;
+        }
+
+        .photos6 {
+          display: inline-block;
+          margin-bottom: 50px;
+        }
+
+      footer {
+        position: absolute;
+        background-color: #012b34;
+        font-size: 15px;
+        width: 100%;
+        height: 250px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      footer a:link {
+          text-decoration: none;
+          color: gray;
+          font-size: 15px;
+      }
+      
+      footer a:visited {
+          color: gray;
+      }
+      
+      footer a:hover {
+          color: #02818a;
+      }
+
+      .kartinka_verh img {
+        width: 100%; 
+        height: 400px;
+      }
+
+      .kartinka_verh h1 {
+        margin-left: 160px;
+        margin-top: -200px;
+        font-size: 64px;
+        color: white;
+      }
+
+      .zagolovok h1 {
+        margin-left: 100px;
+        font-size: 32px;
+        color: black;
+      }
+
+      .logo_verh img {
+        z-index: 1;
+        width: 250px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        right: 20px;
+      }
+
+      .text_razdel {
+        color: azure;
+        font-family: ROBOTO, ARIAL, sans-serif;
+        font-size: 24px;
+        position: absolute;
+        top: 60px;
+        padding-left: 100px
+      }
+
+      .text_osnova {
+        margin-left: 500px;
+        width: 920px;
+        font-size: 18px;
+        color: gray;
+      }
+
+      .text_zagolovok {
+        margin-left: 500px;
+        width: 920px;
+      }
+
+      .znachenie {
+        display: inline-block;
+        font-size: 24px;
+        margin-left: 500px;
+      }
+
+      .znachenie_podpis {
+        font-size: 18px;
+        margin-top: -50px;
+      }
+
+      .seriy_fon {
+        background-color: rgb(240, 240, 240);
+        width: 100%;
+        height: 500px;
+      }
+
+      .block_photo_products {
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+
+      .photo_products {
+        display: inline-block;
+      }
+      
+      .photo_products img {
+        width: 260px;
+        height: 334px;
+        border-radius: 3%;
+      }
+
+      .block_opisanie_products {
+        display: inline-block;
+        margin-left: 170px;
+        position: absolute;
+        margin-top: -60px;
+      }
+      
+      .block_footer_logotip {
+        display: inline-block;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: -110px; 
+      }
+
+      .footer_logotip {
+        display: inline-block;
+      }
+
+      .footer_logotip img {
+        height: 30px; 
+        width: 43px
+      }
+
+      .avtor_pravo {
+        display: inline-block;
+        position: absolute;
+        color: gray;
+        margin-top: 50px;
+        margin-left: 60px;
+      }
+/* Стили для каждой страницы */
+/* Настройте стили в соответствии с официальным сайтом компании */
+
+/* Дополнительные стили для страницы "Основные финансовые показатели" */
+/* Настройте стили таблицы и других элементов в соответствии с вашими требованиями */
